@@ -20,13 +20,16 @@ namespace Thread_asinc
                     Prime_pause_button.Text = "Resume";
             }
         }
+        
+        // Поток не остоновится пока не закончит свое дело даже если закрыть окно
+        
         /*
-          warning SYSLIB0006: "Thread.Abort()" �������� ����������: 
+          warning SYSLIB0006: "Thread.Abort()" ÿâëÿåòñÿ óñòàðåâøèì: 
         'Thread.Abort is not supported and throws PlatformNotSupportedException.'
 1>C:\Users\Dato\source\repos\Thread_asinc\Thread_asinc\Form1.cs(153,17,153,39):
-        warning CS0618: "Thread.Suspend()" �������� ����������: 
+        warning CS0618: "Thread.Suspend()" ÿâëÿåòñÿ óñòàðåâøèì: 
         'Thread.Suspend has been deprecated. Use other classes in System.Threading, such as Monitor, Mutex, Event, and Semaphore, to synchronize Threads or protect resources.'
-1>C:\Users\Dato\source\repos\Thread_asinc\Thread_asinc\Form1.cs(158,17,158,38): warning CS0618: "Thread.Resume()" �������� ����������: 
+1>C:\Users\Dato\source\repos\Thread_asinc\Thread_asinc\Form1.cs(158,17,158,38): warning CS0618: "Thread.Resume()" ÿâëÿåòñÿ óñòàðåâøèì: 
         'Thread.Resume has been deprecated. Use other classes in System.Threading, such as Monitor, Mutex, Event, and Semaphore, to synchronize Threads or protect resources.'
          
          */
